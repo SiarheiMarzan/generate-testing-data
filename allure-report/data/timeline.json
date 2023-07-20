@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MSI",
+    "children" : [ {
+      "name" : "23900@MSI.main(1)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "af02ee8e8aff0268",
+        "parentUid" : "877549e7f702aaa4e29dc07abce4478f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689869015950,
+          "stop" : 1689869021941,
+          "duration" : 5991
+        },
+        "flaky" : false,
+        "parameters" : [ "\"Generate 5 CNP values and verify them on the website http://testingchallenges.thetestingmap.org/challenge4.php.\"", "\"Optional[Unique Identification Number Generation]\"" ]
+      } ],
+      "uid" : "877549e7f702aaa4e29dc07abce4478f"
+    } ],
+    "uid" : "4e235fbd4c199973bc00f3dda2ae852d"
+  } ]
+}

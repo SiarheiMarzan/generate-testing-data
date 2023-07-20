@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "cucumber_runners.BaseRunner",
+    "children" : [ {
+      "name" : "runScenario",
+      "uid" : "af02ee8e8aff0268",
+      "parentUid" : "156476988989b0d64c5e4abb11a0a1ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1689869015950,
+        "stop" : 1689869021941,
+        "duration" : 5991
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Generate 5 CNP values and verify them on the website http://testingchallenges.thetestingmap.org/challenge4.php.\"", "\"Optional[Unique Identification Number Generation]\"" ]
+    } ],
+    "uid" : "cucumber_runners.BaseRunner"
+  } ]
+}

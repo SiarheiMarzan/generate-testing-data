@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jul 20 18:03:35 CEST 2023","Thu Jul 20 18:03:41 CEST 2023","5991","Test Suite","Test","cucumber_runners.BaseRunner","cucumber_runners.BaseRunner","runScenario","Runs Cucumber Scenarios",""

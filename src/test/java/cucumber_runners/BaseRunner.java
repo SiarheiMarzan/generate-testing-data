@@ -18,5 +18,4 @@ public class BaseRunner extends AbstractTestNGCucumberTests {
     public void tearDown() {
         DriverFactory.closeDriver();
     }
-
 }
