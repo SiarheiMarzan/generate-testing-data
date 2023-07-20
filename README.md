@@ -38,8 +38,7 @@ To generate CNPs and run the tests:
 * Run the tests using TestNG and the testng.xml configuration to verify the correctness of the CNP generation logic.
 
 * After running the tests, view the Allure report for detailed test execution results. Use next commands in cmd to see report:
-* cmd: allure generate --clean allure-results
-* cmd: allure open
+* cmd: allure serve allure-results
 
 # CNP Generator
 
