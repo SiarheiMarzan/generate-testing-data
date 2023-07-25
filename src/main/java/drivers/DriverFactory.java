@@ -6,10 +6,10 @@ import org.openqa.selenium.WebDriver;
 public class DriverFactory {
     private static WebDriver webDriver = null;
 
-    public DriverFactory() {
+    private DriverFactory() {
     }
 
-    public static WebDriver getDriver() {
+    public static synchronized WebDriver getDriver() {
         if (null != webDriver)
             return webDriver;
         var browserName = System.getProperty("browser", "Chrome");
@@ -27,14 +27,14 @@ public class DriverFactory {
         return webDriver;
     }
 
-    public static void closeDriver() {
+    public static synchronized void closeDriver() {
         if (webDriver != null) {
             webDriver.quit();
             webDriver = null;
         }
     }
 
-    public static boolean isScreenshotSupported() {
+    public static synchronized boolean isScreenshotSupported() {
         return webDriver instanceof TakesScreenshot;
     }
 }
